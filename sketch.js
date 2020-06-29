@@ -49,6 +49,9 @@ function draw() {
   if(backgroundImg){
     background(backgroundImg);
   }
+  else{
+  background("white");
+  }
   
   textSize(20);
   fill("yellow");
